@@ -631,7 +631,8 @@ h1, h2, h3, h4, h5,
     height: calc(100vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
-    height: calc(20vh); }
+    height: calc(20vh);
+    display:flex; }
   .site-blocks-cover h1 {
     font-size: 3rem;
     font-weight: 400;
@@ -929,7 +930,6 @@ h1, h2, h3, h4, h5,
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #37cfa2;
     opacity: .2;
     z-index: -1;
     top: 10px;
@@ -1895,3 +1895,4 @@ h1, h2, h3, h4, h5,
     @media (max-width: 991.98px) {
       .first-step:after, .second-step:after {
         display: none; } }
+
